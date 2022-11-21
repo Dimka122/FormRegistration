@@ -1,14 +1,20 @@
 ﻿using System;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNet.Identity.Owin;
+using Microsoft.Owin;
 
-/// <summary>
-/// Summary description for Class1
-/// </summary>
-public class Class1
+public class ApplicationUserManager : UserManager<ApplicationUser>
 {
-	public Class1()
-	{
-		//
-		// TODO: Add constructor logic here
-		//
-	}
+    public ApplicationUserManager(IUserStore<ApplicationUser> store)
+            : base(store)
+    {
+    }
+    public static ApplicationUserManager Create(IdentityFactoryOptions<ApplicationUserManager> options,
+                                            IOwinContext context)
+    {
+        ApplicationContext db = context.Get<ApplicationContext>();
+        ApplicationUserManager manager = new ApplicationUserManager(new UserStore<ApplicationUser>(db));
+        return manager;
+    }
 }
