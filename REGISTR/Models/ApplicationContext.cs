@@ -1,14 +1,14 @@
 ﻿using System;
+using System.Data.Entity;
+using Microsoft.AspNet.Identity.EntityFramework;
 
-/// <summary>
-/// Summary description for Class1
-/// </summary>
-public class Class1
+public class ApplicationContext : IdentityDbContext<ApplicationUser>
 {
-	public Class1()
-	{
-		//
-		// TODO: Add constructor logic here
-		//
-	}
+    public ApplicationContext() : base("IdentityDb") { }
+
+    public static ApplicationContext Create()
+    {
+        return new ApplicationContext();
+    }
 }
+

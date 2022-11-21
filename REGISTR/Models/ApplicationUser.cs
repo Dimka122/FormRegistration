@@ -1,14 +1,10 @@
 ﻿using System;
+using Microsoft.AspNet.Identity.EntityFramework;
 
-/// <summary>
-/// Summary description for Class1
-/// </summary>
-public class Class1
+public class ApplicationUser : IdentityUser
 {
-	public Class1()
-	{
-		//
-		// TODO: Add constructor logic here
-		//
-	}
+    public int Year { get; set; }
+    public ApplicationUser()
+    {
+    }
 }
