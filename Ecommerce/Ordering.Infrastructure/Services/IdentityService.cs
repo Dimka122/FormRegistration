@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Ordering.Application.Common.Exceptions;
-using Ordering.Application.Common.Interfaces;
 using Ordering.Infrastructure.Identity;
 
 namespace Ordering.Infrastructure.Services

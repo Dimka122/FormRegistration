@@ -1,4 +1,4 @@
-﻿using Odering.Core.Entities.Base;
+﻿using Ordering.Core.Entities.Base;
 
 namespace Ordering.Core.Entities
 {
