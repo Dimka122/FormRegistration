@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odering.Core", "Odering.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{11617093-9EDE-4215-8028-1B23EF8A8A23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Ordering.API\Ordering.API.csproj", "{4FFD2BC7-7A7D-481D-98C6-F52E4C3AEE37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{11617093-9EDE-4215-8028-1B23EF8A8A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11617093-9EDE-4215-8028-1B23EF8A8A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11617093-9EDE-4215-8028-1B23EF8A8A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FFD2BC7-7A7D-481D-98C6-F52E4C3AEE37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FFD2BC7-7A7D-481D-98C6-F52E4C3AEE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FFD2BC7-7A7D-481D-98C6-F52E4C3AEE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FFD2BC7-7A7D-481D-98C6-F52E4C3AEE37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
