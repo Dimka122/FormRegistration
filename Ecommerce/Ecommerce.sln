@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Ordering.Application\Ordering.Application.csproj", "{08BB9059-DA60-4202-8ABA-49D37E0C5DA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odering.Core", "Odering.Core\Odering.Core.csproj", "{71B7638D-B3A8-41F9-8DC6-BB2C771925AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Core", "Odering.Core\Ordering.Core.csproj", "{71B7638D-B3A8-41F9-8DC6-BB2C771925AF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{11617093-9EDE-4215-8028-1B23EF8A8A23}"
 EndProject

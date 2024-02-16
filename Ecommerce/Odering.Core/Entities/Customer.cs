@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Odering.Core.Entities.Base;
 
-namespace Odering.Core.Entities
+namespace Ordering.Core.Entities
 {
     public class Customer : BaseEntity
     {

@@ -6,20 +6,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Odering.Core.Entities
+namespace Ordering.Core.Entities.Base
 {
     public class BaseEntity
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public Int64 Id { get; set; }
+        public long Id { get; set; }
         public DateTime CreatedDate { get; set; }
 
         public DateTime ModifiedDate { get; private set; }
 
         public BaseEntity()
         {
-            this.ModifiedDate = DateTime.Now;
+            ModifiedDate = DateTime.Now;
         }
     }
 }
