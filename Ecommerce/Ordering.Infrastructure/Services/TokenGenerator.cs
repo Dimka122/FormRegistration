@@ -1,4 +1,7 @@
-﻿using System.Security.Claims;
+﻿using Ordering.Application.Common.Interfaces;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Tokens;
+using System.Security.Claims;
 using System.Text;
 
 namespace Ordering.Infrastructure.Services
